@@ -130,4 +130,28 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+
+
+
+
+
+//////////////////////////////////////////////__PAGEDATA
+define('PAGE_DATA_ADMIN',   
+    [
+        'data_page' => [], 
+        'data_header' => [
+            'header_link' => [], 
+            'title' => '', 
+            'header' => [], 
+            'sidebar' => [], 
+            'site' => 'admin'
+        ], 
+        'data_footer' => [
+            'footer_link' => [], 
+            'footer' => [], 
+            'site' => 'admin'
+        ]
+    ]);
+
+
 ?>

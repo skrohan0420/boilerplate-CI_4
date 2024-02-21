@@ -7,6 +7,6 @@ class Admin_Controller extends Main_Controller
 {
     public function index(): void
     {
-        echo 'api';
+        $this->load_page('/admin/test',PAGE_DATA_ADMIN);
     }
 }
